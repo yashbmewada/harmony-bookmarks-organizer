@@ -148,6 +148,8 @@ To solve this problem the most simple way can be to compare each item with anoth
 
 - Another method can be to create a `ThreadPool` where the size of the pool can be `min( number of cores *2 , length of url list)` as the machine can allow us to easily spawn around `number of cores *2 ` threads very safely. Also, spawning that many threads can be considered feasible as the cost would not be as big as overhead of a netweork request.
 
+- We can add more optimization of allowing it to read from bookmarks files and output to a bookmarks file.
+
 - Thus, the solution has the best performance if implemented with Asynchronous requests.
 
 In case you wish to contribute, generate an issue and create a pull request.
