@@ -1,4 +1,4 @@
-## Harmony - A Simple Bookmarks Organizer
+# Harmony - A Simple Bookmarks Organizer
 
 Everyone faces a problem once in a while, when trying to switch browsers that each browser has multiple bookmarks. Some of them are even duplicates.
 
@@ -12,7 +12,7 @@ Harmony is a simple bookmarks organizer built with python 3.6 which provides you
 
 - Links that are redirected to other url would appear after the link they are redirected to ( provided the destination url also exists in the bookmark list). for example, `https://www.google.com/news` is redirected to `https://news.google.com/news` (this would occur first in the list as it is destination.)
 
-### Input
+## Input
 
 List of bookmarks from all your browsers. Currently you can provide three lists namely Safari, Chrome and Firefox.
 
@@ -39,7 +39,7 @@ firefox = [
     'https://news.google.com/news/']
 ```
 
-### Output
+## Output
 
 ```
 Working on organising your bookmarks...
@@ -64,7 +64,7 @@ Your bookmarks are now organised!!!!
 
 
 
-### How to run
+## How to run
 
 1. Clone the repository or download zip .
 
@@ -104,11 +104,11 @@ Your bookmarks are now organised!!!!
 
 4. Congratulations!! you are ready to organize your bookmarks.
 
-### BruteForce Approach
+## BruteForce Approach
 
 To solve this problem the most simple way can be to compare each item with another and based on the strings, as well as redirect url just putting in simple lists, which would be much costlier and take a lot of time to run.
 
-### Approach To Current Solution
+## Approach To Current Solution
 
 1. The main function has list provided in the input. (It can also be read from file but for simplicity of demonstration I have kept as three different lists.)
 
@@ -138,7 +138,7 @@ To solve this problem the most simple way can be to compare each item with anoth
 
 5. A list of organized bookmarks is printed.
 
-### Possible Optimizations and Bottlenecks
+## Possible Optimizations and Bottlenecks
 
 - The biggest bottleneck in this case comes at *checking for redirection* (Network Bound ). I have tried with a concurrent approach using threading but it also produced similar results due to inconsistency of the library to make Asynchronous request. 
 
