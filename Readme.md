@@ -110,7 +110,7 @@ To solve this problem the most simple way can be to compare each item with anoth
 
 ## Approach To Current Solution
 
-1. The main function has list provided in the input. (It can also be read from file but for simplicity of demonstration I have kept as three different lists.)
+1. The main function has list provided in the input. (It can also be read from file but for simplicity of demonstration I have kept as three different lists. any of the list can be empty in that case the current solution would not be affected.) 
 
 2. A  universal list called `all_links_list` which appends all the urls together helps get together and process all the bookmarks.
 
