@@ -17,7 +17,7 @@ Harmony is a simple bookmarks organizer built with python 3.6 which provides you
 List of bookmarks from all your browsers. Currently you can provide three lists namely Safari, Chrome and Firefox.
 
 ```
-`safari = [
+2.`safari = [
       'https://mail.google.com/mail/u/0/#inbox',
     'https://www.concur.com/',
     'https://www.sap.com/index.html',
@@ -62,8 +62,6 @@ Your bookmarks are now organised!!!!
  ['https://images.google.com/']
 ```
 
-
-
 ## How to run
 
 1. Clone the repository or download zip .
@@ -76,33 +74,37 @@ Your bookmarks are now organised!!!!
 
 2. Before proceeding, you must have python 3.x installed on your system. run the follwing command from terminal or command prompt to check if you have python installed.
 
-   ```
-   python
-   ```
+```
+python
+```
 
-   OR
+OR
+
+```
+python3
+```
+
+( NOTE: we will require python3.x version.)
+
+3. Install requirements
 
    ```
-   python3
+   pip install -r requirements.txt
    ```
-
-   ( NOTE: we will require python3.x version.)
 
    
 
-3. If already installed, use the following command to run the script.
+4. If already installed, use the following command to run the script.
 
-   ```
-   python app.py # this must point to the python3 binary in your system 
-   ```
+```
+python app.py # this must point to the python3 binary in your system
+```
 
-   OR
+OR
 
-   ```
-   python3 app.py
-   ```
-
-4. Congratulations!! you are ready to organize your bookmarks.
+```
+python3 app.py
+```
 
 ## BruteForce Approach
 
